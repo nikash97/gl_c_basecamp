@@ -1,0 +1,13 @@
+// How to work with console in C and compile programm
+1. Instal IDE/Notepad
+2. Install compiler (gcc)
+3. Create C source file
+4. Win+R, cmd, change adress to .c file
+  // Change drive
+    D:
+  // Set new directory, for example
+    cd D:\Master KPI\GL
+  // Create .bat script with:
+    gcc -std=c11 -o "File_name".exe "File_name".c //-o to create .exe, c11 - C standart
+  // execute .bat file, with its name 
+// .exe file will apear "File_name".exe in directory
