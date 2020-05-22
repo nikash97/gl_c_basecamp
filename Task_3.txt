@@ -1,0 +1,13 @@
+~/Desktop | mkdir Test| cd ~/Desktop/Test | mkdir -p folder_1 folder_2 folder_3/folder_4
+echo 'This is first line' > file_1.txt
+cp f* .file_2.txt
+
+printf 's%\n' * .* > output.txt
+sort output.txt
+rm output.txt
+
+dir -la
+
+stat -- * .* > stat.txt
+
+strings -f stat.txt | grep "Text to look for"
